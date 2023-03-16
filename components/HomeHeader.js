@@ -23,14 +23,14 @@ const HomeHeader = ({ onSearch }) => {
         <Image
           source={assets.logo}
           resizeMode="contain"
-          style={{ width: 90, height: 25 }}
+          style={{ width: 80, height: 80,borderRadius:30 }}
         />
 
         <View style={{ width: 45, height: 45 }}>
           <Image
             source={assets.person01}
             resizeMode="contain"
-            style={{ width: "100%", height: "100%" }}
+            style={{ width: 120, height: 120,position:'absolute',right:2,bottom:-50,borderRadius:50}}
           />
           <Image
             source={assets.badge}
